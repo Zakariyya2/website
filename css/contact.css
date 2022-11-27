@@ -1,0 +1,108 @@
+.contact {
+  width: 100%;
+  height: 48%;
+  background: url("../images/bgm1.jpg");
+  background-size: cover;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+.contact .info {
+  background: rgba(0, 0, 0, 0.268);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+}
+.contact .info .adinfo {
+  width: 46%;
+  height: 95%;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.contact .info .adinfo h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.contact .info .adinfo p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.contact .info .coinfo {
+  width: 46%;
+  height: 95%;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.contact .info .coinfo h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.contact .info .coinfo p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.contact footer {
+  font-size: 35px;
+  background: rgba(0, 0, 0, 0.268);
+  color: white;
+  text-align: center;
+}
+@media screen and(max-width:600px) {
+  .contact {
+    width: 100%;
+     min-height: 48%;
+    background: url("../images/bgm1.jpg");
+    background-size: cover;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }.contact .info {
+    background: rgba(0, 0, 0, 0.268);
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+  .contact .info .adinfo {
+    width: 100%;
+    height: 95%;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+  .contact .info .adinfo h1 {
+    font-size: 3.2em;
+    font-weight: 600;
+  }
+  .contact .info .adinfo p {
+    font-size: 1em;
+    font-weight: 100;
+  }
+  .contact .info .coinfo {
+    width: 48%;
+    height: 95%;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding:0 5px;
+  }
+  .contact .info .coinfo h1 {
+    font-size: 3.2em;
+    font-weight: 400;
+  }
+  .contact .info .coinfo p {
+    font-size: 1em;
+    font-weight: 100;
+  }
+  .contact footer {
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.268);
+    color: white;
+    text-align: center;
+  }
+}

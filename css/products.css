@@ -1,0 +1,427 @@
+main {
+  width: 100%;
+  min-height: 100%;
+  margin: 0 0 10px 0;
+  padding: 0;
+  background-image: url("../images/bgm1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+main .products {
+  background: rgba(0, 0, 0, 0.251);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.products h1 {
+  width: 100%;
+  min-height: 10vh;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  position: relative;
+  top: 2%;
+  font-size: 4em;
+  text-shadow: 1px 1px 1px black;
+}
+.products .product {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  margin: 0;
+  padding:0;
+}
+.products .product .product1 {
+  margin: 10px 0 10px 15px;
+  padding: 0;
+  width: 32%;
+  height: 42vh;
+  position: relative;
+  text-shadow: 1px 1px 1px red;
+}
+.products .product .product1 .image1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.products .product .product1 .image1 .content1 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 90px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  text-align: center;
+}
+.products .product .product1 .image1:hover .content1 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 60px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  opacity: 0;
+  visibility: hidden;
+}
+.products .product .product1 .image1 .content1 p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 150px;
+  padding: 0 5px;
+  font-size: 25px;
+  opacity: 0;
+  visibility: hidden;
+  color: white;
+  transition: 1s;
+}
+.products .product .product1 .image1:hover .content1 p {
+  position: relative;
+  top: 90px;
+  font-size: 25px;
+  color: white;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+  text-shadow: 1px 1px 1px red;
+}
+
+.products .product .product1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.products .product .product2 {
+  margin: 10px 0 10px 15px;
+  padding: 0;
+  width: 32%;
+  height: 42vh;
+  position: relative;
+  text-shadow: 1px 1px 1px red;
+}
+.products .product .product2 .image2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.products .product .product2 .image2 .content2 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 90px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  text-align: center;
+}
+.products .product .product2 .image2:hover .content2 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 60px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  opacity: 0;
+  visibility: hidden;
+}
+.products .product .product2 .image2 .content2 p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 150px;
+  padding: 0 5px;
+  font-size: 25px;
+  opacity: 0;
+  visibility: hidden;
+  color: white;
+  text-shadow: 1px 1px 1px red;
+  transition: 1s;
+}
+.products .product .product2 .image2:hover .content2 p {
+  position: relative;
+  top: 90px;
+  font-size: 25px;
+  color: white;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+}
+
+.products .product .product2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products .product .product3 {
+  margin: 10px 15px;
+  padding: 0;
+  width: 32%;
+  height: 42vh;
+  position: relative;
+  text-shadow: 1px 1px 1px red;
+}
+.products .product .product3 .image3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.products .product .product3 .image3 .content3 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 90px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  text-align: center;
+}
+.products .product .product3 .image3:hover .content3 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 60px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  opacity: 0;
+  visibility: hidden;
+}
+.products .product .product3 .image3 .content3 p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 150px;
+  padding: 0 5px;
+  font-size: 25px;
+  opacity: 0;
+  text-shadow: 1px 1px 1px red;
+  visibility: hidden;
+  color: white;
+  transition: 1s;
+}
+.products .product .product3 .image3:hover .content3 p {
+  position: relative;
+  top: 90px;
+  font-size: 25px;
+  color: white;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+}
+
+.products .product .product3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products .product .product4 {
+  margin: 10px 5px;
+  padding: 0;
+  width: 32%;
+  height: 42vh;
+  position: relative;
+  text-shadow: 1px 1px 1px red;
+}
+.products .product .product4 .image4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.products .product .product4 .image4 .content4 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 90px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  text-align: center;
+}
+.products .product .product4 .image4:hover .content4 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 60px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  opacity: 0;
+  visibility: hidden;
+}
+.products .product .product4 .image4 .content4 p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 150px;
+  padding: 0 5px;
+  font-size: 25px;
+  opacity: 0;
+  visibility: hidden;
+  text-shadow: 1px 1px 1px red;
+  color: white;
+  transition: 1s;
+}
+.products .product .product4 .image4:hover .content4 p {
+  position: relative;
+  top: 90px;
+  font-size: 25px;
+  color: white;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+}
+
+.products .product .product4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products .product .product5 {
+  margin: 10px 15px;
+  padding: 0;
+  width: 32%;
+  height: 42vh;
+  position: relative;
+  text-shadow: 1px 1px 1px red;
+}
+.products .product .product5 .image5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.products .product .product5 .image5 .content5 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 90px;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  text-align: center;
+}
+.products .product .product5 .image5:hover .content5 h2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 60px;
+  font-size: 45px;
+  font-weight: 600;
+  transition: 1s;
+  opacity: 0;
+  visibility: hidden;
+}
+.products .product .product5 .image5 .content5 p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 120px;
+  padding: 0 5px;
+  font-size: 25px;
+  opacity: 0;
+  text-shadow: 1px 1px 1px red;
+  visibility: hidden;
+  color: white;
+  transition: 1s;
+}
+.products .product .product5 .image5:hover .content5 p {
+  position: relative;
+  top: 90px;
+  font-size: 25px;
+  color: white;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+}
+
+.products .product .product5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width:600px){
+
+  .product{margin: 0;padding: 0;}
+  .products .product {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding:0;
+  }
+  .products .product .product1 {
+    margin: 10px 5px 0 5px ;
+    padding: 0 ;
+    width: 98%;
+    height: 42vh;
+    position: relative;
+    text-shadow: 1px 1px 1px red;
+  }
+  .products .product .product2 {
+    margin: 10px 5px 0 5px ;
+    padding: 0 ;
+    width: 98%;
+    height: 42vh;
+    position: relative;
+    text-shadow: 1px 1px 1px red;
+  }
+  .products .product .product3 {
+    margin: 10px 5px 0 5px ;
+    padding: 0 ;
+    width: 98%;
+    height: 42vh;
+    position: relative;
+    text-shadow: 1px 1px 1px red;
+  }
+  .products .product .product4 {
+    margin: 10px 5px 0 5px ;
+    padding: 0 ;
+    width: 98%;
+    height: 42vh;
+    position: relative;
+    text-shadow: 1px 1px 1px red;
+  }
+  .products .product .product5 {
+    margin: 10px 5px 0 5px ;
+    padding: 0 ;
+    width: 98%;
+    height: 42vh;
+    position: relative;
+    text-shadow: 1px 1px 1px red;
+  }
+}
